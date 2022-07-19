@@ -285,3 +285,116 @@ footer {
   font-weight: 100;
   font-size: 1.5rem;
 }
+
+/* ______________________
+    Meadia Query 
+_________________________ */
+
+/* Small Device */
+@media only screen and (max-width: 767px) {
+  * {
+    font-size: 45%;
+  }
+  header nav {
+    display: none;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    padding: 1rem 8rem;
+    background-color: #fff;
+  }
+  .e-platform-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #fff;
+  }
+  .products-section #see-more {
+    text-align: center;
+  }
+  .products-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem 10rem;
+  }
+  .products-container .product {
+    align-items: flex-start;
+  }
+  .future-product-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    display: none;
+  }
+}
+
+/* Mediam Device */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    font-size: 45%;
+  }
+  header nav {
+    display: none;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    padding: 1rem 8rem;
+    background-color: #fff;
+  }
+  .e-platform-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #fff;
+  }
+  .products-section #see-more {
+    text-align: center;
+  }
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 10rem;
+  }
+
+  .products-container .product {
+    align-items: flex-start;
+  }
+  .future-product-container {
+    padding: 0rem 4rem;
+    gap: 3.6rem;
+  }
+  footer {
+    display: none;
+  }
+}
+
+/* Large Device */
+@media only screen and (min-width: 1024px) {
+  * {
+    font-size: 45%;
+  }
+  header nav {
+    display: none;
+  }
+  .products-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  footer {
+    display: none;
+  }
+}
