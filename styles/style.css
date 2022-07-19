@@ -11,6 +11,15 @@ html {
   font-size: 62.5%;
 }
 
+/* _______________________
+    header section  
+    _______________________*/
+
+/* Navbar section  */
+
+header {
+  margin-bottom: 2rem;
+}
 header nav {
   display: flex;
   justify-content: space-between;
@@ -45,4 +54,50 @@ nav ul li .fa-magnifying-glass,
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: #3a3a3a;
+}
+
+/* Title section  */
+
+.title-section {
+    margin-bottom: 2rem;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10rem;
+  align-items: center;
+  padding: 1rem 8rem;
+  background-color: #fff;
+}
+
+.title-container img {
+  width: 45.5rem;
+  height: 45.5rem;
+}
+.title-container .title h1 {
+  font-weight: 700;
+  font-size: 5.2rem;
+  line-height: 7rem;
+  color: #3a3a3a;
+}
+.title-container .title p {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #3a3a3a;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+.title-container .title a {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+  padding: 0.8rem 2rem;
+  background: #e02c6d;
+  border-radius: 41px;
+}
+.title-container .title a i{
+    padding-left: 0.8rem;
 }
