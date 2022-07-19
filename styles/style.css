@@ -59,7 +59,7 @@ nav ul li .fa-magnifying-glass,
 /* Title section  */
 
 .title-section {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .title-container {
@@ -96,8 +96,26 @@ nav ul li .fa-magnifying-glass,
   color: #ffffff;
   padding: 0.8rem 2rem;
   background: #e02c6d;
-  border-radius: 41px;
+  border-radius: 4.1rem;
 }
-.title-container .title a i{
-    padding-left: 0.8rem;
+.title-container .title a i {
+  padding-left: 0.8rem;
+}
+
+/* e-commerce platform section  */
+
+.e-platform-section {
+  margin-bottom: 10rem;
+  padding: 0 15rem;
+}
+.e-platform-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 3rem;
+  background-color: #fff;
+  border-top: 0.01rem solid rgba(0, 0, 0, 0.09);
+  border-bottom: 0.01rem solid rgba(0, 0, 0, 0.09);
+  box-shadow: 1rem 1rem 20rem 0.02rem rgba(254, 253, 253, 0.879);
 }
